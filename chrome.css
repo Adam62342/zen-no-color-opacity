@@ -1,0 +1,12 @@
+/* Unblock Opacity Slider — Zen (Sine) mod
+ *
+ * Zen hides the workspace-theme opacity slider whenever no color is
+ * selected: the panel gets invalidate-controls="true" and the built-in
+ * stylesheet sets `display: none` on the slider. The slider is NOT disabled
+ * in JS, so simply un-hiding it makes it fully usable again.
+ */
+
+#PanelUI-zen-gradient-generator[invalidate-controls="true"]
+  #PanelUI-zen-gradient-generator-opacity {
+  display: revert !important;
+}
