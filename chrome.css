@@ -1,8 +1,0 @@
-/* Experimental opacity override. Only active while the JS bridge detects no color. */
-:root[zen-no-color-opacity-active="true"] {
-  --zen-main-browser-background: color-mix(in srgb, var(--lwt-accent-color, Canvas) calc(var(--zen-no-color-opacity, .5) * 100%), transparent) !important;
-}
-/* Keep the wave accessible if Zen disables it visually. */
-[id^="PanelUI-zen-gradient-generator"] input[type="range"] {
-  pointer-events: auto !important;
-}
