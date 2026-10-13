@@ -1,8 +1,0 @@
-{
-  "name": "No-Color Opacity",
-  "description": "Experimental JS/CSS no-color opacity override (untested)",
-  "author": "Community",
-  "version": "0.2.0",
-  "homepage": "https://github.com/zen-browser/desktop",
-  "style": "chrome.css"
-}
