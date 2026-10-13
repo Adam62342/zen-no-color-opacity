@@ -1,0 +1,14 @@
+{
+  "id": "zen-unblock-opacity-slider",
+  "name": "Unblock Opacity Slider",
+  "description": "Keeps the Zen workspace theme opacity slider usable even when no color is selected. Zen normally hides it until you pick a color; this un-hides it.",
+  "homepage": "https://github.com/YOUR_GITHUB_USERNAME/zen-unblock-opacity-slider",
+  "style": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/zen-unblock-opacity-slider/refs/heads/main/chrome.css",
+  "readme": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/zen-unblock-opacity-slider/refs/heads/main/README.md",
+  "author": "YOUR_GITHUB_USERNAME",
+  "version": "1.0.0",
+  "tags": ["Zen Browser", "tweak", "theme-picker"],
+  "createdAt": "2026-10-13",
+  "updatedAt": "2026-10-13",
+  "fork": ["zen"]
+}
